@@ -19,10 +19,9 @@ Take a simple view controller called `ArticlesViewController` and apply mock PR 
 
 ## Screenshots
 
-### View
-![Simulator Screenshot - iPhone 15 Pro - 2024-05-06 at 19 55 40](https://github.com/wsaults/SimpleArticles/assets/466656/03a12299-8fca-46a3-b143-ab4ce70a20b0)
-
 ### Tests
 <img width="383" alt="Screenshot 2024-05-06 at 8 07 24 PM" src="https://github.com/wsaults/SimpleArticles/assets/466656/cb62e1a2-7e99-4d76-91f2-2ca26aa6bf4c">
 
+### View
+![Simulator Screenshot - iPhone 15 Pro - 2024-05-06 at 19 55 40](https://github.com/wsaults/SimpleArticles/assets/466656/03a12299-8fca-46a3-b143-ab4ce70a20b0)
 

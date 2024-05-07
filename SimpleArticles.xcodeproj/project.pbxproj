@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		BE04A16A2BE99BBE003605CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04A1692BE99BBE003605CF /* AppDelegate.swift */; };
 		BE04A16C2BE99BBE003605CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04A16B2BE99BBE003605CF /* SceneDelegate.swift */; };
-		BE04A16E2BE99BBE003605CF /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04A16D2BE99BBE003605CF /* ArticlesViewController.swift */; };
+		BE04A16E2BE99BBE003605CF /* ArticlesTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04A16D2BE99BBE003605CF /* ArticlesTabViewController.swift */; };
 		BE04A1732BE99BBF003605CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE04A1722BE99BBF003605CF /* Assets.xcassets */; };
 		BE04A1762BE99BBF003605CF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BE04A1752BE99BBF003605CF /* Base */; };
-		BE04A1812BE99BC0003605CF /* SimpleArticlesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04A1802BE99BC0003605CF /* SimpleArticlesTests.swift */; };
 		BE04A18B2BE99BC0003605CF /* SimpleArticlesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04A18A2BE99BC0003605CF /* SimpleArticlesUITests.swift */; };
 		BE04A18D2BE99BC0003605CF /* SimpleArticlesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04A18C2BE99BC0003605CF /* SimpleArticlesUITestsLaunchTests.swift */; };
+		BE04A19A2BE99F04003605CF /* ArticlesViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04A1992BE99F04003605CF /* ArticlesViewControllerTests.swift */; };
+		BE04A19C2BE99F51003605CF /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04A19B2BE99F51003605CF /* APIClient.swift */; };
+		BE04A19F2BE99F6D003605CF /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04A19E2BE99F6D003605CF /* Article.swift */; };
+		BE04A1A42BE9B428003605CF /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04A1A32BE9B428003605CF /* UITableView+Extensions.swift */; };
+		BE04A1A72BE9B447003605CF /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04A1A62BE9B447003605CF /* ArticleCell.swift */; };
+		BE04A1AA2BE9B4A7003605CF /* XCTestCase+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04A1A92BE9B4A7003605CF /* XCTestCase+Extensions.swift */; };
+		BE04A1AC2BE9B4C2003605CF /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04A1AB2BE9B4C2003605CF /* UITableView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,15 +44,21 @@
 		BE04A1662BE99BBE003605CF /* SimpleArticles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleArticles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE04A1692BE99BBE003605CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE04A16B2BE99BBE003605CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BE04A16D2BE99BBE003605CF /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
+		BE04A16D2BE99BBE003605CF /* ArticlesTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesTabViewController.swift; sourceTree = "<group>"; };
 		BE04A1722BE99BBF003605CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE04A1752BE99BBF003605CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE04A1772BE99BBF003605CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE04A17C2BE99BC0003605CF /* SimpleArticlesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleArticlesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE04A1802BE99BC0003605CF /* SimpleArticlesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleArticlesTests.swift; sourceTree = "<group>"; };
 		BE04A1862BE99BC0003605CF /* SimpleArticlesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleArticlesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE04A18A2BE99BC0003605CF /* SimpleArticlesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleArticlesUITests.swift; sourceTree = "<group>"; };
 		BE04A18C2BE99BC0003605CF /* SimpleArticlesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleArticlesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BE04A1992BE99F04003605CF /* ArticlesViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewControllerTests.swift; sourceTree = "<group>"; };
+		BE04A19B2BE99F51003605CF /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		BE04A19E2BE99F6D003605CF /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		BE04A1A32BE9B428003605CF /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		BE04A1A62BE9B447003605CF /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		BE04A1A92BE9B4A7003605CF /* XCTestCase+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Extensions.swift"; sourceTree = "<group>"; };
+		BE04A1AB2BE9B4C2003605CF /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +109,13 @@
 		BE04A1682BE99BBE003605CF /* SimpleArticles */ = {
 			isa = PBXGroup;
 			children = (
+				BE04A1A22BE9B41D003605CF /* Extensions */,
+				BE04A19D2BE99F63003605CF /* Models */,
+				BE04A1A12BE9B3D8003605CF /* Networking */,
+				BE04A1A52BE9B43A003605CF /* Views */,
+				BE04A1A02BE9B3A2003605CF /* ViewControllers */,
 				BE04A1692BE99BBE003605CF /* AppDelegate.swift */,
 				BE04A16B2BE99BBE003605CF /* SceneDelegate.swift */,
-				BE04A16D2BE99BBE003605CF /* ArticlesViewController.swift */,
 				BE04A1722BE99BBF003605CF /* Assets.xcassets */,
 				BE04A1742BE99BBF003605CF /* LaunchScreen.storyboard */,
 				BE04A1772BE99BBF003605CF /* Info.plist */,
@@ -110,7 +126,8 @@
 		BE04A17F2BE99BC0003605CF /* SimpleArticlesTests */ = {
 			isa = PBXGroup;
 			children = (
-				BE04A1802BE99BC0003605CF /* SimpleArticlesTests.swift */,
+				BE04A1A82BE9B497003605CF /* Extensions */,
+				BE04A1992BE99F04003605CF /* ArticlesViewControllerTests.swift */,
 			);
 			path = SimpleArticlesTests;
 			sourceTree = "<group>";
@@ -122,6 +139,55 @@
 				BE04A18C2BE99BC0003605CF /* SimpleArticlesUITestsLaunchTests.swift */,
 			);
 			path = SimpleArticlesUITests;
+			sourceTree = "<group>";
+		};
+		BE04A19D2BE99F63003605CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BE04A19E2BE99F6D003605CF /* Article.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BE04A1A02BE9B3A2003605CF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE04A16D2BE99BBE003605CF /* ArticlesTabViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BE04A1A12BE9B3D8003605CF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				BE04A19B2BE99F51003605CF /* APIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BE04A1A22BE9B41D003605CF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BE04A1A32BE9B428003605CF /* UITableView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BE04A1A52BE9B43A003605CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE04A1A62BE9B447003605CF /* ArticleCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BE04A1A82BE9B497003605CF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BE04A1A92BE9B4A7003605CF /* XCTestCase+Extensions.swift */,
+				BE04A1AB2BE9B4C2003605CF /* UITableView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,9 +320,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE04A16E2BE99BBE003605CF /* ArticlesViewController.swift in Sources */,
+				BE04A16E2BE99BBE003605CF /* ArticlesTabViewController.swift in Sources */,
 				BE04A16A2BE99BBE003605CF /* AppDelegate.swift in Sources */,
 				BE04A16C2BE99BBE003605CF /* SceneDelegate.swift in Sources */,
+				BE04A1A42BE9B428003605CF /* UITableView+Extensions.swift in Sources */,
+				BE04A1A72BE9B447003605CF /* ArticleCell.swift in Sources */,
+				BE04A19C2BE99F51003605CF /* APIClient.swift in Sources */,
+				BE04A19F2BE99F6D003605CF /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +334,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE04A1812BE99BC0003605CF /* SimpleArticlesTests.swift in Sources */,
+				BE04A1AC2BE9B4C2003605CF /* UITableView+Extensions.swift in Sources */,
+				BE04A1AA2BE9B4A7003605CF /* XCTestCase+Extensions.swift in Sources */,
+				BE04A19A2BE99F04003605CF /* ArticlesViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

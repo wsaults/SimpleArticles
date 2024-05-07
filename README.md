@@ -10,12 +10,15 @@ Take a simple view controller called `ArticlesViewController` and apply mock PR 
 
 ## Actual Steps Taken
 - [x] Fixed nits
+- [x] Added `ArticlesFetching` protocol
 - [x] Added unit tests (created spy to check fetch call count and asserted on numer of table rows)
 - [x] Checked for memory leaks using unit test helpers
 - [x] Used weak references as needed
 - [x] Made `Article` codable for future json parsing
 - [x] Made use of `private` and `final` as needed
 - [x] Convert `ArticlesViewController` to `ArticlesTableViewController`
+- [x] Added system logger (Should be replaced with 3rd party logger when feasible)
+- [x] Added `ArticleCell` `UITableViewCell` class
 
 ## Screenshots
 
